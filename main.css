@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Fauna+One&display=swap');
+
+    /* font-family: 'Cinzel', serif; */
+    /**/
+    /* font-family: 'Fauna One', serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: #f695e5;
+  color: #430538;
+}
+
+h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  /* letter-spacing: .2rem; */
+}
+
+.main {
+  font-family: 'Fauna One', serif;
+  padding: 5px;
+  background-color: #F9B4ED;
+  margin: 2rem auto; 
+  width: 80%; 
+  max-width: 1100px;
+  border-radius: 5px;
+}
+
+.main ul {
+  margin-top: 1rem;
+}
+
+.main li {
+  background-color: #fde3f8;
+  padding: 1rem;
+  list-style-type: none;
+  border: .5px solid #e012bc;
+  border-radius: 5px;
+}
+
+.myElements {
+  font-family: 'Cinzel', serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.elements {
+  margin-top: 10px;
+  background-color: #fde3f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.elements p {
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 15px;
+}
+
+.elements img {
+  height: 200px;
+}
